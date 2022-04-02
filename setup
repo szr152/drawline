@@ -1,7 +1,7 @@
 from os import path as os_path
 from setuptools import setup
 
-import haipproxy
+import drawlines
 
 this_directory = os_path.abspath(os_path.dirname(__file__))
 
@@ -29,7 +29,7 @@ setup(
     install_requires=read_requirements('time.txt','os.txt'), 
     include_package_data=True,
     license="MIT",
-    keywords=['proxy', 'client', 'haipproxy'],
+    keywords=['proxy', 'client', 'drawlines'],
     classifiers=[
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
