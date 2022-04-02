@@ -22,12 +22,11 @@ setup(
     description="This is used to draw a progress bar.",  # 包简介，显示在PyPI上
     long_description=read_file('README.md'), # 读取的Readme文档内容
     long_description_content_type="text/markdown",  # 指定包文档格式为markdown
-    author="Resolvewang", # 作者相关信息
-    author_email='resolvewang@foxmail.com',
-    url='https://github.com/SpiderClub/haipproxy',
-    # 指定包信息，还可以用find_packages()函数
-    find_packages()
-    install_requires=read_requirements('time.txt','os.txt'),  # 指定需要安装的依赖
+    author="Andy", # 作者相关信息
+    author_email='szr152@outlook.com',
+    url='https://github.com/szr152/drawline/',
+    find_packages(),
+    install_requires=read_requirements('time.txt','os.txt'), 
     include_package_data=True,
     license="MIT",
     keywords=['proxy', 'client', 'haipproxy'],
